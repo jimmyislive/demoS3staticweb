@@ -1,6 +1,6 @@
 This is an automated way to [set up a static website on S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html) 
 
-*NOTE:* One thing to remeber is that aws [does not support `https` for static websites](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteEndpoints.html). If that is important to you (and it should be !) use other providers such as [Netlify](https://www.netlify.com/) for your static needs.
+*NOTE:* One thing to remeber is that aws [does not support `https` for static websites](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteEndpoints.html). If that is important to you (and it should be !) use other providers such as [Netlify](https://www.netlify.com/) for your static needs. (Actually you can if you use cloudfront with a custom CNAME and a custom cert.)
 
 ## Prerequisites
 
